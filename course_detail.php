@@ -42,7 +42,7 @@ if (isset($_POST['save_course'])) //button
         }
         ?>
         <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Good Job!</strong> Your requiment list was update
+        <strong>Good Job!</strong> Your To-Do list has been updated
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -52,7 +52,7 @@ if (isset($_POST['save_course'])) //button
     else{
         ?>
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Error!</strong> You already have that course in your
+            <strong>Error!</strong> You already have that course in your list
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
